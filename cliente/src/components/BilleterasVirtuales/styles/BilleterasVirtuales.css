@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Hairline&family=Chicle&family=Fredericka+the+Great&family=Jua&family=Kalnia+Glaze:wght@100..700&family=Lilita+One&family=Poppins:wght@400;500;700&family=Rampart+One&family=Rubik+Moonrocks&family=Rubik+Scribble&family=Rubik+Vinyl&family=Sofia&family=Wendy+One&display=swap');
+
 .billeteras {
     font-family: 'Arial', sans-serif;
     background-image: url(https://star.global/_next/image/?url=https%3A%2F%2Fcms.star.global%2Fwp-content%2Fuploads%2F2022%2F08%2FFrom-digital-wallet-to-super-app.jpg&w=3840&q=75);
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -123,4 +126,16 @@ input, select, .button {
     margin-bottom: 20px;
     text-align: left;
 }
+/*
+.usuario {
+    font-family: "Lilita One", sans-serif;
+}
 
+.cuentaContenido {
+    font-family: "Lilita One", sans-serif;
+}
+
+.fecha {
+    font-family: "Lilita One", sans-serif;
+}
+*/

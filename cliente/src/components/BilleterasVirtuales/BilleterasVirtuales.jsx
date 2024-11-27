@@ -19,7 +19,7 @@ const BilleterasVirtuales = () => {
         const fechaHora = new Intl.DateTimeFormat('en-GB', {
             dateStyle: 'short',
             timeStyle: 'short',
-          }).format(date);
+        }).format(date);
 
         setCuentas([...cuentas, { usuario, billetera, transacciones: Number(transaccion), fechaHora }]); // Crea una nueva cuenta
 
@@ -107,7 +107,7 @@ const BilleterasVirtuales = () => {
                         <div className="cuenta">
                             {cuentas.map((cuenta, index) => (
                                 <div className="bv" key={index}>
-                                    <p className='usuario'>{cuenta.usuario}</p> 
+                                    <p className='usuario'>{cuenta.usuario}</p>
                                     <p className='cuentaContenido'>{cuenta.billetera}: {cuenta.transacciones} Txn</p>
                                     <p className='fecha'>({cuenta.fechaHora})</p>
                                 </div>
@@ -119,7 +119,7 @@ const BilleterasVirtuales = () => {
                         <div className="transacciones">
                             {cuentasMasTransacciones.map((cuenta, index) => (
                                 <div className="bv" key={index}>
-                                    <p className='usuario'>{cuenta.usuario}</p> 
+                                    <p className='usuario'>{cuenta.usuario}</p>
                                     <p className='cuentaContenido'>{cuenta.billetera}: {cuenta.transacciones} Txn</p>
                                     <p className='fecha'>({cuenta.fechaHora})</p>
                                 </div>
