@@ -1,0 +1,7 @@
+.inicioContenedor{
+    background-image: url('../../../assets/backgroundDM.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
