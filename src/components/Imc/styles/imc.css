@@ -1,0 +1,69 @@
+.contenedor1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/imc.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding:18px;
+}
+
+.contenedor2 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width:100%;
+    max-width: 500px; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrará el contenedor */
+}
+
+.h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: auto;
+    box-shadow: none;
+    padding: 0;
+}
+.h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block
+}
+
+input{
+    margin:0px;
+}
+
+Button {
+    margin: 5px;
+}
+
+.resultado{
+    font-size: 18px;
+    color: #333;     
+}

@@ -1,0 +1,34 @@
+.containerInicio {
+    background-image: url('../../images/tatetifondo.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.textoInicio {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.buttonStart {
+    width: 30%;
+    background-color: rgb(19, 19, 18);
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttonStart:hover:hover{
+    background-color: #0d0e0e;
+    transform: scale(1.1);
+}
+

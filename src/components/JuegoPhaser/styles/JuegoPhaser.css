@@ -1,0 +1,75 @@
+/* Fondo animado */
+.fondo-animado {
+    width: 1326px;
+    height: 595px;
+    background-image: url('/public/images/background2.jpg'); /* Ruta de la imagen */
+    animation: 10s moverArriba linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* Alinea el contenido al inicio (parte superior) */
+    flex-direction: column-reverse;  /* El texto estará en la parte superior */
+}
+
+/* Animación de movimiento del fondo */
+@keyframes moverArriba {
+    0% {
+      background-position: 0 100%; /* Empieza desde la parte inferior */
+    }
+    100% {
+      background-position: 0 0%; /* Termina en la parte superior */
+    }
+}
+
+/* Texto parpadeante */
+.texto-parpadeante {
+    font-size: 15vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    animation: parpadeo 1s infinite;
+    text-align: center;
+    margin-top: 20px;  /* Ajusta el margen superior según lo necesites */
+}
+.texto-nombre {
+    font-size: 6vh;
+    color: white;
+    text-align: center;
+    margin-top: 20px;  /* Ajusta el margen superior según lo necesites */
+}
+
+/* Animación de parpadeo del texto */
+@keyframes parpadeo {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#nombreForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 30%;
+    
+}
+
+#nombreJugador {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#botonStart {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width:50%; 
+}
+
+#botonStart:hover {
+    background-color: #0056b3;
+}

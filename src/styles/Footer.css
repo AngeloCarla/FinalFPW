@@ -1,0 +1,15 @@
+.footer{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff8c;
+}
+
+.linkk {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkk:hover,
+.linkk:focus {
+    text-decoration: none;
+    color: #ffffff;
+}

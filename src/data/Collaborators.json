@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Angelo Carla",
+        "description": "Soy Angelo Carla, una persona creativa y detallista con una gran pasión por el diseño en los videojuegos, un tema que siempre me ha fascinado. Aunque hablar en público puede ser un desafío para mí, me vuelvo más abierta y segura una vez que tomo confianza.",
+        "image": "./images/fotoCarla.jpg",
+        "github": "https://github.com/AngeloCarla",
+        "githubName": "AngeloCarla"
+    },
+    {
+        "name": "Santiago Larraburu",
+        "description": "Me llamo Santiago Larraburu, soy una persona que disfruta los videojuegos y las películas. Espero aprender mucho en esta materia.",
+        "image": "./images/fotoSantiago.png",
+        "github": "https://github.com/LarraSanti",
+        "githubName": "LarraSanti"
+    },
+    {
+        "name": "Palma Luca",
+        "description": "Mi nombre es Luca pero prefiero que me llamen Palma porque ya conozco demasiados Lucas. Me gusta el diseño gráfico y me encanta probar nuevas formas de expresar mi creatividad.",
+        "image": "./images/foto_luca.jpeg",
+        "github": "https://github.com/Luca-Palma",
+        "githubName": "Luca-Palma"
+    },
+    {
+        "name": "Tamara Quispe",
+        "description": "Soy Tamara y me gusta la tecnología y siempre estoy buscando nuevas formas de aprender para expandir mis conocimientos. En mi tiempo libre algunas de las cosas que disfruto es la lectura, los videojuegos y escuchar música. Espero seguir desarrollando mis habilidades y aplicar lo que aprendo en futuros proyectos.",
+        "image": "./images/imagen__.jpg",
+        "github": "https://github.com/tammarabm",
+        "githubName": "tammarabm"
+    },
+    {
+        "name": "Guanuco Leonardo Rafael",
+        "description": "Hola soy estudiante en programación de videojuegos",
+        "image": "./images/motorapp.jpg",
+        "github": "https://github.com/leoguanuco",
+        "githubName": "leoguanuco"
+    }
+]

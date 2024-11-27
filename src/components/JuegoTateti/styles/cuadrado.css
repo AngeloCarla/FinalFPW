@@ -1,0 +1,18 @@
+.cuadrado {
+    width: 100px;  
+    height: 100px; 
+    font-size: 30px; 
+    color:#ffff;
+    border: 2px solid black; 
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 5px; 
+    background-color: #f34134; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado:hover {
+    background-color: #e73124;; 
+}

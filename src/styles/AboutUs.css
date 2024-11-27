@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.AboutUs{
+    font-family: sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+.seccion1{
+    text-align: center;
+    background-color: beige;
+}
+.seccion1 h1{
+    font-size: 60px;
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/banner1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e9e9e9;
+}
+.seccion1 h2{
+    font-size: 40px;
+    padding-top: 30px;
+    background-color: rgb(44, 44, 44);
+    color: #e9e9e9;
+} 
+
+/*equipo*/
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.member {
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 18rem;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: content-box;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.member .card-link {
+    text-decoration: none;
+    color: #0000008c;
+}
