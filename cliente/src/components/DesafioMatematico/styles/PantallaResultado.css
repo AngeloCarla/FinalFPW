@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Hairline&family=Chicle&family=Fredericka+the+Great&family=Jua&family=Kalnia+Glaze:wght@100..700&family=Lacquer&family=Lilita+One&family=Poppins:wght@400;500;700&family=Rampart+One&family=Rubik+Moonrocks&family=Rubik+Scribble&family=Rubik+Vinyl&family=Sofia&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Hairline&family=Chicle&family=Fredericka+the+Great&family=Jua&family=Kalnia+Glaze:wght@100..700&family=Lacquer&family=Lilita+One&family=Poppins:wght@400;500;700&family=Rampart+One&family=Rubik+Moonrocks&family=Rubik+Scribble&family=Rubik+Vinyl&family=Shadows+Into+Light&family=Sofia&family=Wendy+One&display=swap');
+.resultado {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/backgroundDM.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    font-family: "Shadows Into Light", cursive;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.progress-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    height: 30px;
+  }
+  
