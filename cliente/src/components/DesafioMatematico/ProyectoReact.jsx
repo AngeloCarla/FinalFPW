@@ -14,6 +14,9 @@ const ProyectoReact = () => {
   const [isCorrect, setIsCorrect] = useState(false); // Respuesta Correcta
   const [gameOver, setGameOver] = useState(false); // Indica si el juego ha terminado
 
+  // Barra de progreso
+  const progress = (round / 5) * 100;
+
   // Inicio del Juego
   const startGame = (nivelSeleccionado) => {
     console.log("Juego iniciado");
@@ -194,6 +197,10 @@ const ProyectoReact = () => {
 
   };
 
+  const rounds = () => {
+
+  }
+  
   // Avanza a la siguiente ronda o muestra la pantalla de fin si se completaron las 5 rondas
   const nextRound = () => {
     if (round < 5) {
@@ -223,7 +230,13 @@ const ProyectoReact = () => {
       ) : gameOver ? (
         <PantallaFinal points={points} resetearJuego={resetGame} volverMenu={backToMenu} /> // Pantalla final con los puntos
       ) : showResult ? (
-        <PantallaResultado isCorrect={isCorrect} nextRound={nextRound} /> // Pantalla de resultado
+        <PantallaResultado
+          isCorrect={isCorrect}
+          nextRound={nextRound}
+          correctAnswer={points} // Utiliza `points` como las respuestas correctas
+          incorrectAnswer={round - points} // Las incorrectas son el total de rondas menos las correctas
+          progress={progress} // Progreso de las rondas
+        /> // Pantalla de resultado
       ) : (
         <DesafioMatematico challenge={currentChallenge} verifyAnswer={verifyAnswer} volverMenu={backToMenu} /> // Pantalla de desafío
       )}
