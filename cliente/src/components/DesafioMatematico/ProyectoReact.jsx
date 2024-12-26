@@ -197,10 +197,6 @@ const ProyectoReact = () => {
 
   };
 
-  const rounds = () => {
-
-  }
-  
   // Avanza a la siguiente ronda o muestra la pantalla de fin si se completaron las 5 rondas
   const nextRound = () => {
     if (round < 10) {
@@ -238,7 +234,11 @@ const ProyectoReact = () => {
           progress={progress} // Progreso de las rondas
         /> // Pantalla de resultado
       ) : (
-        <DesafioMatematico challenge={currentChallenge} verifyAnswer={verifyAnswer} volverMenu={backToMenu} /> // Pantalla de desafío
+        <DesafioMatematico
+          challenge={currentChallenge}
+          verifyAnswer={verifyAnswer}
+          volverMenu={backToMenu}
+        /> // Pantalla de desafío
       )}
     </div>
   );
