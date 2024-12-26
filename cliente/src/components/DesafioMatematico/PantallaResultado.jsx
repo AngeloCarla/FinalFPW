@@ -8,14 +8,17 @@ const PantallaResultado = ({ isCorrect, nextRound, correctAnswer, incorrectAnswe
       <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
         <Card className="text-center" style={{ width: '20rem' }}>
           <Card.Body>
+            <Card.Title className="titleDM">{isCorrect ? "¡Correcto!" : "¡Incorrecto!"}</Card.Title>
             {/* Barra de progreso */}
             <div className="progress-container">
-              <p>Progreso: Ronda {correctAnswer + incorrectAnswer} de 5</p>
-              <ProgressBar striped animated variant="success" now={progress}/>
+              <p>Ronda {correctAnswer + incorrectAnswer} de 10</p>
+              <ProgressBar>
+                <ProgressBar
+                  striped animated
+                  variant={isCorrect ? 'success' : 'danger'}
+                  now={progress} />
+              </ProgressBar>
             </div>
-
-            <Card.Title className="title">{isCorrect ? "¡Correcto!" : "¡Incorrecto!"}</Card.Title>
-            <br />
             <Button variant="success" onClick={nextRound}> Siguiente desafío</Button>
           </Card.Body>
         </Card>
