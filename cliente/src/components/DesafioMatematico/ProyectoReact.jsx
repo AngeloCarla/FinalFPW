@@ -15,7 +15,7 @@ const ProyectoReact = () => {
   const [gameOver, setGameOver] = useState(false); // Indica si el juego ha terminado
 
   // Barra de progreso
-  const progress = (round / 5) * 100;
+  const progress = (round / 10) * 100;
 
   // Inicio del Juego
   const startGame = (nivelSeleccionado) => {
@@ -203,7 +203,7 @@ const ProyectoReact = () => {
   
   // Avanza a la siguiente ronda o muestra la pantalla de fin si se completaron las 5 rondas
   const nextRound = () => {
-    if (round < 5) {
+    if (round < 10) {
       setRound(round + 1);
       generateChallenge(nivel); // Genera un nuevo desafio
       setShowResult(false);
